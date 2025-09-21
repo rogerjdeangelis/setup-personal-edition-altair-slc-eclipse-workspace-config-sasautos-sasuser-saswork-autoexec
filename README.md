@@ -6,6 +6,7 @@ Setup personal edition altair slc eclipse workspace config sasautos sasuser sasw
     https://tinyurl.com/yvebd3ee
     https://github.com/rogerjdeangelis/setup-personal-edition-altair-slc-eclipse-workspace-config-sasautos-sasuser-saswork-autoexec/blob/main/wpslayout.png
 
+
     github
     https://tinyurl.com/5c7kspet
     https://github.com/rogerjdeangelis/setup-personal-edition-altair-slc-eclipse-workspace-config-sasautos-sasuser-saswork-autoexec
@@ -145,8 +146,7 @@ Setup personal edition altair slc eclipse workspace config sasautos sasuser sasw
           Highlight the code and hit cntl-x (cut)
           File>new>untitled program
 
-        LOG: COULD NOT
-
+        LOG: COULD NOT CLEAR
 
         If you lose the OUTPUTS in the bottom panel then
         go to upper tool bar
@@ -155,12 +155,18 @@ Setup personal edition altair slc eclipse workspace config sasautos sasuser sasw
         If you lose the log screen but have the logtab then
         grab the log tab an drag it before the program screen.
 
-        Note you can always get  Dates output and log.
+        Note you can always get dated output and log.
         Using the dated outputs in the lower panel.
 
-        For  log in click on log in the right panel
-        for  listing output  results to restore upper panels
+        For  log  click on log in the right panel
+        for  listing  go to output results and click  to restore upper panels
 
+        You can always save the perspetive using
+          Windows>perspective> save
+        Restore using
+           Windows>perspective> reset
+
+        However this does not save the listing window. Go to outputs console
 
      6 HOW TO ASSIGN EDITOR KEYS TO FUNCTION KEYS AND MOUSE ACTIONS
        ------------------------------------------------------------
@@ -188,6 +194,14 @@ Setup personal edition altair slc eclipse workspace config sasautos sasuser sasw
 
       7 SAMPLE PROGRAM
         --------------
+
+        Macro variable _init_ is creae in the autoexec file
+
+        %global _init_;
+
+        %let _init_= %nrstr(ods html close;ods listing;
+        options ls=255 ps=65  nofmterr nocenter nodate nonumber noquotelenmax validvarname=upcase
+        compress=no FORMCHAR='|----|+|---+=|-/\<>*');
 
         file>new>untitled program
 
@@ -219,3 +233,4 @@ Setup personal edition altair slc eclipse workspace config sasautos sasuser sasw
 
 
     SOAPBOX OFF
+
