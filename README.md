@@ -2,6 +2,10 @@
 Setup personal edition altair slc eclipse workspace config sasautos sasuser saswork autoexec
     Setup personal edition altair slc eclipse workspace config sasautos sasuser saswork autoexec
 
+    eclipse layout
+    https://tinyurl.com/yvebd3ee
+    https://github.com/rogerjdeangelis/setup-personal-edition-altair-slc-eclipse-workspace-config-sasautos-sasuser-saswork-autoexec/blob/main/wpslayout.png
+
     github
     https://tinyurl.com/5c7kspet
     https://github.com/rogerjdeangelis/setup-personal-edition-altair-slc-eclipse-workspace-config-sasautos-sasuser-saswork-autoexec
